@@ -1,0 +1,13 @@
+#content{
+    display: grid;
+    justify-items: center;
+    width: 30vw;
+}
+#s
+{
+    display: flex;
+    align-items: center;
+}
+p{
+    color:#00dede;
+}

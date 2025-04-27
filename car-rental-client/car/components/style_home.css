@@ -1,0 +1,92 @@
+/* .t{
+    padding: 1vw;
+} */
+#all{
+    width: 100%;
+    display: flex;
+    justify-content:space-between;
+
+}
+.inside{
+    /* background-color: #cccccc; */
+    width: 16vw;
+    height: 15vw;
+    display: grid;
+    margin-left: 20vw;
+    margin-top: 2vw;
+}
+#image{
+margin-right: 3vw;
+}
+#re{
+    background-color: #fb2576;
+}
+
+.button {
+    display: inline-block;
+    border-radius: 2vw;
+    background-color: #00dede;
+    border: none;
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 2vw;
+    padding: 1.3vw;
+    width: 10vw;
+    height: 7vw;
+    transition: all 0.5s;
+    cursor: pointer;
+    margin: 2vw;
+  }
+  
+  .button span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+  }
+  
+  .button span:after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+  }
+  
+  .button:hover span {
+    padding-right: 25px;
+  }
+  
+  .button:hover span:after {
+    opacity: 1;
+    right: 0;
+  }
+  #imagee{
+    width:30vw;
+  }
+  #contact{
+    display: flex;
+    justify-content: space-between;
+  }
+  #inputs{
+    margin-top: 8vw;
+    margin-left: 15vw;
+  }
+  #title
+  {
+    margin-top: 5.5vw;
+  }
+  #send{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 18%;
+  }
+  #service{
+    margin-top: 8vw;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+    }

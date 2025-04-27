@@ -1,0 +1,36 @@
+.credit{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 60%;
+    margin-bottom: 0.5vw;
+}
+#success{
+    margin-top: 3vw;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 15%;
+}
+#chip{
+    margin-top: 3vw;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 45%;
+}
+#detail{
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    margin-bottom: 2vw;
+}
+#dates{
+    text-align: center;
+}
+#credit{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 20%;
+}
