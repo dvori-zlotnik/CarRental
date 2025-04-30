@@ -32,7 +32,6 @@ export const Home=()=>{
       }
       else{
         console.log(x.data)
-
       dispach(set(x.data))
       setUser(x.data)
       }

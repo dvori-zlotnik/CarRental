@@ -51,14 +51,17 @@ export default function Continue({setUser,user,setStep}) {
             }}>להמשיך</Button>
           <Button onClick={()=>
           {
+            console.log(user);
+            
                       addUser(user).then((x)=>
                       {
                         console.log(x.data)
+                        navigate("../home")
+
                       }
                       ).catch(error=>
                         console.log(error)
                       );
-                  navigate("../home")
             handleClose()
           }
             } autoFocus>
