@@ -136,10 +136,10 @@ console.log(router);
     {/* <AppProvider
       navigation={NAVIGATION}
       router={router}>
-          {/* <DashboardLayout> */}
+          <DashboardLayout>
           <Body route={router.pathname} ></Body>
-       {/* </DashboardLayout> */}
-    {/* </AppProvider> */}
+       </DashboardLayout>
+    /* </AppProvider> */}
     </div>
     </>
 }

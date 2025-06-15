@@ -34,7 +34,19 @@ export default function Nav() {
     else return undefined
   }
   return (
-    <div id="nav">
+    <div id="nav"
+      style={{
+        position: "fixed",
+        top: 0,
+        right: 0,
+        left: 0,
+        zIndex: 1301, // גבוה יותר מה-Drawer וה-AppBar של MUI
+        background: "#fff",
+        boxShadow: "0 2px 8px #eee",
+        height: "64px",
+        display: "flex",
+        alignItems: "center"
+      }}>
       <NavLink to={user.name && user.isManager ? "/manager" : "/home"} id="user" className={"link"}>
         <p onClick={() => {
           if (user.name && !user.isManager)
