@@ -9,7 +9,9 @@ return<>
 <Provider store={store}>
     <BrowserRouter>
  <Nav></Nav>
-    <Routing></Routing>   
+ <div style={{ paddingTop: "5vw" }}>
+        <Routing ></Routing>   
+</div>
     </BrowserRouter>
 </Provider>
 </>

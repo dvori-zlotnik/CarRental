@@ -43,7 +43,7 @@ export default function Nav() {
         zIndex: 1301, // גבוה יותר מה-Drawer וה-AppBar של MUI
         background: "#fff",
         boxShadow: "0 2px 8px #eee",
-        height: "64px",
+        height: "5vw",
         display: "flex",
         alignItems: "center"
       }}>
